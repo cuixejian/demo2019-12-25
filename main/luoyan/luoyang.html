@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"\>
+	<!-- <meta http-equiv="Content-Type" content="text/html; charset=gb2312"> -->
+	<title>洛阳</title>
+	<link rel="stylesheet" type="text/css" href="luoyang.css">
+	<!-- <script src="luoyang.js"></script>
+	<script  src="jquery-1.8.2.min.js"></script>
+	<script src="jquery.carouFredSel-6-2-0-packed.js"></script>
+	<script sec="swfobject_modified.js"></script> -->
+	<script src="jquery-1.8.2.min.js"></script>
+	<script src="movie.js"></script>
+	<script src="thick_box_plus.js"></script>
+	<script src="totop.js"></script>
+</head>
+<body>
+	<div class="head">
+	    <div class="header">
+	        <div class="headers ">                  
+	            <span class="headersspan">
+	                <a href="#网页">网页</a>
+	                <a href="#新闻">新闻</a>
+	                <a href="#贴吧">贴吧</a>
+	                <a href="#知道">知道</a>
+	                <a href="#音乐">音乐</a>
+	                <a href="#图片">图片</a>
+                    <a href="#视频">视频</a>
+                    <a href="#地图">地图</a>
+                    <a href="#文库">文库</a>
+                    <a href="#百科">百科</a>                        
+                    <a href="#百度首页">百度首页</a>
+                    <select name="古都" id="古都">
+                    	<option value="#"><a href="#">洛阳&nbsp;</a></option>
+        	            <option value="#"><a href="#">古都&nbsp;&nbsp;</a></option>
+            	        <option value="#"><a href="#">南京&nbsp;</a></option>
+                	    <option value="#"><a href="#">北京&nbsp;</a></option>
+                        <option value="#"><a href="#">西安&nbsp;</a></option>
+                        
+                    </select>
+                </span>
+            </div>
+            <div class="body">
+ 	           <span >
+                    <img class="logos" src="images/百度.png" alt="logo">
+                </span>
+                <p class="inp">
+                <a  href="#sousuo"><input class="inp1" type="text" value="&nbsp"></a>
+                <a  href="#sousuo"><input class="inp2" type="button" value="进入词条"></a>
+                <a  href="#sousuo"><input class="inp3" type="button" value="全站搜索"></a>
+                </p>
+            </div>
+        </div>
+        <div class="foot" >                   
+            <div class="fot" >
+                <div><a href="#">首页</a></div>
+                <div><a href="#jiu">分类</a></div>
+                <div><a href="#cha">秒懂百科</a></div>
+                <div><a href="#yushi">特色百科</a></div>
+                <div><a href="#shipin">用户</a></div>
+                <div><a href="#xihu">权威合作</a></div>
+            </div>                      
+        </div>                    
+    </div>
+	    
+    	<!-- <div id="wrapper">
+    		<div id="slider">
+    					<div class="slide"><img title="" alt="" src="images/l1.jpg" ></div>
+    					<div class="slide"><img title="" alt="" src="images/l2.jpg" ></div>
+    					<div class="slide"><img title="" alt="" src="images/l3.jpg" ></div>
+    				</div>
+    			</div> -->
+		<div class="first_part">
+		<div id="center">
+				<div id="div0">
+					<a href="/mymovie/index.php/Index/index" target="_blank">首页</a>
+					<a href="/mymovie/index.php/Newslist/mnewslist1" target="_blank">北京</a>
+					<a href="/mymovie/index.php/List/index" target="_blank">西安</a>
+					<a href="/mymovie/index.php/List/index/order/rnum" target="_blank">南京</a>
+					<a href="http://pic.sogou.com/d?query=%C2%E5%D1%F4%CD%BC%C6%AC&st=255&mode=255&did=1#did4" target="_blank">洛阳图片</a>
+					<a href="https://baike.sogou.com/v324897.htm?fromTitle=%E6%B4%9B%E9%98%B3%E7%89%A1%E4%B8%B9" target="_blank">洛阳牡丹</a>
+					<a href="https://baike.sogou.com/v544535.htm?fromTitle=%E6%B2%B3%E6%B4%9B%E5%A4%A7%E9%BC%93" target="_blank">洛河大鼓</a>
+					<a href="https://baike.sogou.com/v13313.htm?fromTitle=%E6%B4%9B%E9%98%B3%E5%AE%AB%E7%81%AF" target="_blank">洛阳宫灯</a>
+					<a href="https://baike.sogou.com/v69705451.htm?fromTitle=%E6%B4%9B%E9%98%B3%E6%9B%B2%E5%89%A7" target="_blank">洛阳曲剧</a>
+					<a href="https://baike.sogou.com/v12417.htm?fromTitle=%E6%B4%9B%E9%98%B3%E5%94%90%E4%B8%89%E5%BD%A9" target="_blank">洛阳唐三彩</a>
+				</div>
+		</div>
+	</div>
+
+    <div class="second_part">
+    	<ul class="fix">
+			<li onclick="goTo('#div1')">洛阳简介</li>
+			<li onclick="goTo('#div2')">洛阳牡丹史</li>
+			<li onclick="goTo('#div3')">洛河大鼓</li>
+			<li onclick="goTo('#div4')">洛阳宫灯</li>
+			<li onclick="goTo('#div5')">洛阳曲剧</li>
+			<li onclick="goTo('#div6')">洛阳唐三彩</li>
+		</ul>
+    	<div class="second_part_message">
+    		<div class="div" id="div1" >
+    			<span class="text1">洛阳简介</span>
+    			<p> &nbsp;&nbsp;  洛阳市，河南省下辖地级市；位于河南省西部、黄河中下游，因地处洛河之阳而得名，介于东经112°16'—112°37'，北纬34°32'—34°45'之间，东邻郑州，西接三门峡，北跨黄河与焦作接壤，南与平顶山、南阳相连；属温带季风气候。全市总面积1.52万平方公里，其中市区面积803平方公里。下辖1市8县6区，1个正厅级规格的洛阳新区、4个开发区、17个省级产业集聚区；总人口713.67万人（2018年）[1]。</p>
+
+    			<p>&nbsp;&nbsp;  河洛属古豫州地。洛阳是夏朝立国和活动的中心地域，太康、仲康、帝桀皆以斟鄩为都。1948年，洛阳解放。1954年，升格为河南省直辖市。1986年，洛阳地区撤销，成立地级洛阳市。</p>
+
+    			<p> &nbsp;&nbsp;  洛阳是国家历史文化名城，中国四大古都之一[2] ，世界文化名城，[3]国家区域中心城市。[4]素有十三朝古都之称。[5][6]</p>
+
+    			<p> &nbsp;&nbsp;  洛阳是华夏文明和中华民族的主要发源地，是东汉、曹魏、西晋、北魏及隋唐时期丝绸之路的东方起点[5]。</p>
+
+				<p>  &nbsp;&nbsp; 2018年，全市生产总值(GDP)4640.8亿元，人均生产总值达67707元。同比增长7.9%，分别高于全国、全省增速1.3个百分点、0.3个百分点。</p>
+    		</div>
+    		<div class="div" id="div2" >
+    			<span class="text1">洛阳牡丹史</span>
+    			<p></p>
+    			<span class="text2">隋朝</span>
+    			<p>&nbsp;&nbsp;隋代，隋炀帝（公元605-618 ）时“辟地周二百里为西苑……，昭天下境内所有鸟兽草木驿至京师（今河南洛阳）……。易州（今河北易县）进二十箱牡丹”。《隋志素问篇》中说道：“清明次五时牡丹华。”这又足以说明牡丹作为观赏植物则规模更大。</p>
+    			<span class="text2">唐朝</span>
+    			<p>&nbsp;&nbsp;唐代（公元618-907）牡丹栽培开始繁盛起来。开元中盛于长安。传说当时洛阳有个叫宋单父的善于种花，应唐玄宗李隆基之召，到骊山种了一万多本，颜色不相同（《龙城录》）。李白“云想衣裳花想容，春风拂槛露华浓。若非群玉山头见，会向瑶台月下逢。”等三首“清平调”就是歌咏几种不同颜色牡丹的。“庭前芍药妖无格，池上芙蓉静少情。唯有牡丹真国色，花开时节动京城。”（刘禹锡：“赏牡丹”）“帝城春欲暮，喧喧车马度；共道牡丹时，相随买花去。贵贱无价，酬值看花数：灼灼百朵红，戋戋步束素。……家家习为俗，人人迷不悟。……”（白居易：“买花”）从以上这些诗篇可以看出当时帝都长安裁培牡丹的盛况。这时，牡丹不但颜色种类多了，而且还出现了一些新奇变异和重瓣现象。“兴唐寺有牡丹一窠，元和中着花一千二百朵，其色有正晕、倒晕、浅红、浅紫、紫白、白檀等，独无深红，又有花叶中无抹心者，重台花者，其花面七、八寸。”（《酉阳杂俎》）“穆宗皇帝殿前种千叶牡丹，花始开香气袭人，一朵千叶，大而且红。”（《杜阳杂俎》）。这也说明了，中国早在公元九世纪，便已经有了重瓣牡丹。</p>
+    			<p>&nbsp;&nbsp;唐代洛阳人宋单父，精于园艺，他种的牡丹，红白斗色，变异千种，被时人尊称为花师，惊服他有“幻世之绝艺”。惜此高超绝艺，无著录传世。宋欧阳修《洛阳牡丹记风俗记第三》载，宋时有一复姓东门、人称“门园子”的人，是一位牡丹接花高手，富豪人家都请他嫁接牡丹，秋天接花，到来年春天见花再付钱，接活一株，价值五千。张邦基《墨庄漫录》亦载，宋徽宗宣和年间，洛阳有一位欧姓花师，用药壅培白牡丹根下，次年花开浅碧色，人称“欧家碧”，极为珍贵，每年作为贡品，供奉朝廷。</p>
+    			<p>&nbsp;&nbsp;宋代洛阳牡丹的栽培管理，在择地、栽植、浇灌、施肥、修剪、防虫害、防霜冻以及嫁接、育种等栽培技术方面，总结出一套较为完整的成熟经验。明清时期，牡丹的栽培技术更加趋于完善。花工们从牡丹的种、栽、分、接、浇、养、医、忌等8个方面进行了科学总结，并付诸实现。古代洛阳牡丹的栽培技术，至今对牡丹的生产仍具有一定的指导意义。当代洛阳人在恢复和继承矛盾传统栽培技术的基础上，各种技艺均得到迅速发展，尤其是对牡丹的促成栽培技术，已能使其从9月上旬到翌年自然花期之前近200 天。牡丹花期控制技术已基本达到花随人意，周年开花。</p>
+    			<span class="text2">宋朝</span>
+    			<p>&nbsp;&nbsp;（公元960－1279年），中国牡丹栽培中心，由唐之长安而转移到了洛阳，牡丹的品种更多，栽培技术更加系统、完善。并出现了一批理论专著，对牡丹的研究有了很大的提高。这一时期的著作有欧阳修的《洛阳牡丹记》；周师厚的《鄞江周氏洛阳牡丹记》、《洛阳花木记》；张峋的《洛阳花谱》等等。记述了牡丹的栽培管理，总结出一整套较为完整的成熟经验。欧阳修说：大抵洛人家家有花，而少大树，盖其不接则不佳。</p>
+    			<p>&nbsp;&nbsp;洛阳牡丹的人工栽培始于隋，盛于唐，甲天下于北宋。之后，随着政治中心的转移和洛阳名园的毁夷，至南宋时，四川天彭牡丹继起，有小洛阳之盛。从陆游的《天彭牡丹谱》中所列60多个品种看，大都是从洛阳引进的。明代，盛极一时的安徽亳州牡丹也有许多是从洛阳引进的老品种。清代，曹州牡丹取代亳州牡丹而代之，洛阳牡丹又直接或间接地和曹州牡丹存在一定的渊源关系，足见洛阳牡丹的传播和影响。当今洛阳牡丹更传到意大利、德国、法国、日本、美国、荷兰、南非、澳大利亚和中国台湾、香港等地区。</p>
+
+    		</div>
+    		<div class="div" id="div3" >
+    			<span class="text1">洛河大鼓</span>
+    		<p>&nbsp;&nbsp;河洛大鼓的音乐欢快活泼，表现力丰富，并且具有鲜明的地方风格，其重要原因来自于别具一格的音乐形态。河洛大鼓的音乐形态主要有四个鲜明的特征。</p>
+    		<p>&nbsp;&nbsp;1、集多种地方音乐素材为一体的曲调形态</p>
+    		<p>&nbsp;&nbsp;河洛大鼓的曲调来源于河南地方区域的多个剧种或曲种，如梆子、曲子、河南坠子还有承袭洛阳琴书的曲调等，所以音乐的构成为非单一性的，而是具有区域重构性质的音乐，即在河南区域范围内的跨地区（洛阳、南阳、郑州、开封）重构，是一个具有多重音调资源融合特点的曲艺音乐品种。但是那些与豫剧、曲剧、河南坠子相似的河洛大鼓音调，却很难在其唱腔中找到它的原型，而这些音乐痕迹却贯穿河洛大鼓的始终。这是因为河洛大鼓艺人具有极强的吸收和融合能力，他们从丰富的地方曲调中，吸纳相关的音乐素材，并将其重组为全新的鲜活的音乐语汇，巧妙地融入各种唱腔板式中，使其成为叙述故事情节与描写人物性格的表现手段，从而大大增强了河洛大鼓的音乐表现力，形成了独具特色的豫西地区曲调形态。</p>
+    		<p>&nbsp;&nbsp;2、以河南方言音韵为基础的旋律形态</p>
+    		<p>&nbsp;&nbsp;河洛大鼓是用河南方言说唱的曲种。河南方言的语音系统奠定了河洛大鼓演唱的音韵基础，并构建了以河南方言为音韵基础的旋律形态。河南方言以特有的四声调值规律影响了旋律的发展形态，同时也赋予了它独特的音乐色彩和浓郁的地方风格。</p>
+    		<p>&nbsp;&nbsp;3、以多种唱腔板式组合为体系的结构形态</p>
+    		<p>&nbsp;&nbsp;河洛大鼓音乐是由多种唱腔板式组合的板腔体结构，主要唱腔板式是[平板]又名[二八板]，其他常用唱腔板式有：[引腔]、[起腔]、[坠子口]、[三字紧]、[落板]、[五字垛]、[十字句]、[飞板]、[叹腔]、[凤凰三点头]、[垛板]、[滚口白]、[武板]等十几种板式。这些丰富的唱腔在叙述故事情节、描写人物性格与心理时，都各具独特的效果。这种根据故事的篇幅、情节发展和刻画人物的需要所组合成的板腔序列，构成了河洛大鼓的音乐结构形态。</p>
+    		<p>&nbsp;&nbsp;4、以宫调式为体系兼及离调与转调的调式结构</p>
+    		<p>&nbsp;&nbsp;河洛大鼓的调式是以宫为主音的宫调式，具有色彩明亮的表现特点，且构成了河洛大鼓的基本格调。
+
+    		<p>&nbsp;&nbsp;宫调式具有色彩明亮及稳定的特性，十分符合河洛大鼓艺人乐观而坚定的艺术性格。与河洛文化有关，河洛地区是中原腹地，是中华民族的摇篮，在汉语文化史上居于举足轻重的地位。从语言和音乐这两个关系密切的角度看，中原雅音在古代汉族人心中有着不可动摇的中心地位，这种中心取向在民间也起着潜移默化的作用。</p>
+
+    		<p>&nbsp;&nbsp;河洛大鼓大致有三种调式形态，五声、六声、七声调式形态，特别是常用于过门及前奏结束处的五声调式，被河洛大鼓艺人们称为"主旋律"。暂时离调形态，此种转调是一种短暂的、过渡性质的临时转调。它不是发生在段落的结束处，而是在段落中间出现的暂时离调。这是河洛大鼓艺人为了形成音乐的对比和色彩上的变化，而用的一种转调手法。四度旋宫转调形态，此种转调形态出现在由第二代艺人张天培创立的[坠子口]或[玉林板]的唱腔中。这是张天培用来解决音乐唱腔的调高与演唱者音域的矛盾的一种手法。</p>
+
+			<p>&nbsp;&nbsp;河洛大鼓的艺人们，在创作中运用了宫调体系内暂时离调和四度旋宫转调的调式手法，避免了一种调式长时间盘旋而情绪单一的音乐效果，产生了较为丰富的色彩对比，提高了河洛大鼓的音乐表现力，并且以它独特的调式形态，显示出民间音乐自然纯朴的艺术魅力[3]。</p>
+    		</div>
+    		<div class="div" id="div4" >
+    			<span class="text1">洛阳宫灯</span>
+    			<p>&nbsp;&nbsp;洛阳宫灯历史悠久，相传东汉光武帝刘秀统一天下，建都洛阳，为了庆贺，在宫廷里张灯结彩，大摆宴席，盏盏宫灯，各呈艳姿。后来，宫灯的制作技术传入民间， “宫灯”之名也由此而生。</p>
+
+    			　<p>&nbsp;&nbsp;隋炀帝大业元年正月十五，在洛阳陈设百戏，遍布宫灯，饮宴畅游，全城张灯结彩，半月不息。隋唐之后，每逢元宵佳节，家家彩灯高挂，处处明灯璀璨，人人提灯漫游，盏盏争奇斗艳。这种风俗传至全国，波及海外。</p>
+
+				<p>&nbsp;&nbsp;清代，洛阳宫灯仍很盛行。洛阳老城人李文林，成为一代名师，所作宫灯，年产万余盏，远销省内外。慈禧太后途经洛阳时，赠她一对，受奖铜牌一枚，李家名声大振，终成富贾。</p>
+    		<p></p>
+    		</div>
+    		<div class="div" id="div5">
+    			<span class="text1">洛阳曲剧</span>
+    			<p>&nbsp;&nbsp;洛阳曲子渊源于明代弘治年间(15世纪后期)开封的俗曲。这种俗曲汇集了里巷歌谣和南北曲的零星曲牌，后又融汇人江淮俗曲，由开封传向洛阳、南阳等地。洛阳南郊王屯人王风桐到南阳当私塾先生。课余曾学唱练弹，缮抄曲本。他于清同治11年(1872年)返洛，把自己掌握的130余支南阳曲牌与洛阳的老调曲版对比研究，经过掺兑筛选，在王屯附近教唱。这些曲牌很快得到推广。洛阳曲子开始萌芽。</p>
+    			<span class="text2">坐堂弹唱</span>
+    			<p>&nbsp;&nbsp;洛阳老调曲于原来都是坐堂弹唱。在堂屋客厅里，有人弹三弦、拨月琴、抓筝，另有人以简板、八角鼓与云罗击节。唱到一定节口，大伙帮腔和唱。由于八角鼓指挥全场节奏，每个节目的连套曲牌都是以鼓子头开唱，以鼓字尾结束，因而称为“鼓子曲”。</p>
+    			<span class="text2">上跷演唱</span>
+    			<p>&nbsp;&nbsp;由于厅堂容纳听众甚少，严重地制约着老调曲子的发展。王凤桐便开创了化装上跷演唱曲子的先例。洛阳原有的高跷是不说不唱的。经他的改造，可以边踩高跷边唱曲了。为了适应演出需要，他还对乐器进行了调整。高跷曲又唱又舞，形式新颖，很受人们欢迎。更重要的是洛阳曲子摆脱了豪门厅堂的桎梏，变成了群众性的演出形式，给它的发展提供了广阔的天地。</p>
+    			<span class="text2">登台演唱</span>
+    			<p>&nbsp;&nbsp;1925年农历正月后，老调高跷曲曾被观众数次拥上了简易的台子哼唱。先踩高跷再上台，想来有些不伦不类。但无论如何，老调曲开始登台了。1926年底，李九常等人的高跷社到许昌县五里堡演出。他们事先安排的是先在下边踩高跷，再到台上唱曲子。兴许是观众急于观赏台上演出，怕浪费了时间，所以坚持只登台演唱不要踩高跷。从此，洛阳曲子甩掉跷腿直接登台了。这是洛阳曲子的一场革命。是由高跷曲最终成长为曲子戏的一次质的飞跃。真正意义上的洛阳曲子诞生了。</p>  			
+    		</div>
+    		<div class="div" id="div6">
+    			<span class="text1">洛阳唐三彩</span>
+    			<p>&nbsp;&nbsp;唐三彩是唐代生产的一种低温釉陶器，釉彩有黄、绿、白、褐、蓝、黑等色，而以黄、绿、白三色为主，所以人们习惯称之为“唐三彩”。因唐三彩最早、最多出土于洛阳，亦有“洛阳唐三彩”之称。它吸取了中国国画、雕塑等工艺美术的特点。唐三彩的复制和仿制工艺，经过历代艺人们的研制逐步完善，烧制水平不断提高，使"洛阳唐三彩"的工艺技巧和艺术水平达到了一定的高度，成为极其珍贵的艺术品。</p>
+    			<p>　&nbsp;&nbsp;唐三彩的复制和仿制工艺，在洛阳已有百年的历史，经过历代艺人们的研制，唐三彩工艺技术逐步完善，烧制水平不断提高，使"洛阳唐三彩"的工艺技巧和艺术水平达到了一定的高度。在国际市场上，唐三彩已成为极其珍贵的艺术品，曾在有80多个国家和地区参加的国际旅游会议上被评为优秀旅游产品，被誉为“东方艺术瑰宝”。唐三彩大马、骆驼等曾作为国礼，赠送给50多个国家的元首和政府首脑。</p>
+    		</div>
+    		
+    		
+    	</div>	
+    </div>
+
+
+
+
+
+
+
+    <div class="FF" id="side-share">
+	    <span class="title">分享</span>
+	    <div class="side-border">
+		    <div class="triangle"></div>
+		    <a href="https://qzone.qq.com/"><img class="qqzone" src="images/qqzone.png"></a>
+		    <a class="wb" href="https://weibo.com"><img src="images/wb.png"></a>
+		    <a class="wx"  href="https://wx.qq.com/"><img src="images/wx.png"></a>
+		    <a href="https://zhuanlan.zhihu.com/write"><img class="zhihu" src="images/zhihu.jpg"></a>
+		</div>
+	</div>
+
+
+	<div style="height:200px ; width:1500px ; background:#f5f5f5 ; float:left">
+		<div class="content">
+			<dl class="fresh">
+				<dt>
+					<em class="cmn-icon cmn-icons cmn-icons_footer-fresh">
+						<img src="images/one.png">
+					</em>
+					新手上路
+				</dt>
+				<dd>
+					<div><a target="_blank" href="#">成长任务</a></div>
+					<div><a target="_blank" href="#">编辑入门</a></div>
+					<div><a target="_blank" href="#">编辑规则</a></div>
+					<div><a target="_blank" href="#">本人编辑</a></div>
+				</dd>
+			</dl>
+			<dl class="question">
+				<dt>
+					<em class="cmn-icon cmn-icons cmn-icons_footer-fresh">
+						<img src="images/two.png">
+					</em>
+					我有疑问
+				</dt>
+				<dd>
+					<div><a target="_blank" href="#">内容质疑</a></div>
+					<div><a target="_blank" href="#">在线客服</a></div>
+					<div><a target="_blank" href="#">官方贴吧</a></div>
+					<div><a target="_blank" href="#">意见反馈</a></div>
+				</dd>
+			</dl>
+			<dl class="suggestion">
+				<dt>
+					<em class="cmn-icon cmn-icons cmn-icons_footer-fresh">
+						<img src="images/three.png">
+					</em>
+					投诉建议
+				</dt>
+				<dd>
+					<div><a target="_blank" href="#">举报信息</a></div>
+					<div><a target="_blank" href="#">未通过申诉</a></div>
+					<div><a target="_blank" href="#">投诉信息</a></div>
+					<div><a target="_blank" href="#">封禁查询</a></div>
+				</dd>
+			</dl>
+		</div>
+		<div class="copyright">
+			<span>@2019&nbsp;Baidu&nbsp;</span>
+			<a href="#" target="_blank">使用百度前必读</a>
+		&nbsp;|&nbsp;
+			<a href="#" target="_blank">百科协议</a>
+		&nbsp;|&nbsp;
+			<a href="#" target="_blank">隐私政策</a>
+		&nbsp;|&nbsp;
+			<a href="#" target="_blank">百度百科合作平台</a>
+		&nbsp;|&nbsp;
+			<span>京ICP证030173号&nbsp;</span>
+			<img src="images/four.png">
+		</div>
+		<div class="record">
+			<img src="images/six.png">
+			<a href="#">京公网安备110000020000001号</a>
+		</div>
+	</div>
+</body>
+<script type="text/javascript">
+	function goTo(s){
+		location.hash = s; 
+	}
+		window.onload=function()
+		{
+			var oDiv=document.getElementById('div0');
+			var aA=oDiv.getElementsByTagName('a');
+			var i=0;
+			for(i=0;i<aA.length;i++)
+			{
+				aA[i].pause=1;
+				aA[i].time=null;
+				initialize(aA[i]);
+				aA[i].onmouseover=function()
+				{
+					this.pause=0;	
+				};
+				aA[i].onmouseout=function()
+				{
+					this.pause=1;
+				};
+			}
+			setInterval(starmove,24);
+			function starmove()
+			{
+				for(i=0;i<aA.length;i++)
+				{
+					if(aA[i].pause)
+					{
+						domove(aA[i]);
+					}
+				}
+			}
+			function domove(obj)
+			{
+				if(obj.offsetTop<=-obj.offsetHeight)
+				{
+					obj.style.top=oDiv.offsetHeight+"px";
+					initialize(obj);
+				}
+				else
+				{
+					obj.style.top=obj.offsetTop-obj.ispeed+"px";	
+				}
+			}
+			function initialize(obj)
+			{
+				var iLeft=parseInt(Math.random()*oDiv.offsetWidth);
+				var scale=Math.random()*1+1;
+				var iTimer=parseInt(Math.random()*1500);
+				obj.pause=0;
+
+				obj.style.fontSize=12*scale+'px';
+
+				if((iLeft-obj.offsetWidth)>0)
+				{
+					obj.style.left=iLeft-obj.offsetWidth+"px";
+				}
+				else
+				{
+					obj.style.left=iLeft+"px";
+				}
+				clearTimeout(obj.time);
+				obj.time=setTimeout(function(){
+					obj.pause=1;
+				},iTimer);
+				obj.ispeed=Math.ceil(Math.random()*4)+1;
+			}
+		};
+</script>
+</html>
