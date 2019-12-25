@@ -1,0 +1,384 @@
+/*
+* @Author: liyaman
+* @Date:   2019-12-23 16:33:01
+* @Last Modified by:   liyaman
+* @Last Modified time: 2019-12-24 18:01:51
+*/
+*{
+	padding: 0;
+	margin: 0;
+}
+ul,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.box{
+	width: 1200px;
+	height: 500px;
+	border: 1px solid white;
+	position: relative;
+	overflow: hidden;
+	left: 150px;
+}
+.big{
+	width: 1500px;
+	height: 1000px;
+	background: #6495ED;
+}
+.head{
+  height:200px;
+}
+.header{
+  width:1200px;
+  height: 100%;
+  margin:0 auto;
+}
+.headers{
+  width:1200px;
+  height: 28px;
+  float:right;
+  color：##0d0408;
+  margin-top: 10px;
+  margin-right:0px;
+}
+.headers img{
+  margin-top: 4px;
+  margin-right:10px;
+  float: right;
+}
+.headers a{
+  color: #0d0408;
+  font-size: 15px;
+  font-weight: 700;
+  margin-left:25px;
+}
+.headersspan{
+  float:right;
+  margin-right:20px;
+}
+select{
+  margin-left:25px;
+  font-size: 15px;
+  border-style:none;
+}
+/* 头部中间 */
+.body{
+  height: 158px;
+}
+.body span{
+  line-height: 151px;
+}
+.logos{
+  margin-top:35px;
+  float: left;
+  margin-left:100px;
+  margin-right:0px;
+}
+.inp{
+  width:900px;
+  height:45px;
+  margin:52px 0 0px 0px ;
+  float:left;
+  border:1px solid #373741;
+}
+.inp1{
+  width:600px;
+  height:42px;
+  margin-top: 0px;
+  border:2px solid #373741;
+  border:0px;
+  font-size:16px;
+}
+.inp2{
+  width:145px;
+  height:45px;
+  border:2px solid ;
+  border: 0;
+  text-align: center;
+  font-size:17px;
+  color: white;
+  background-color:#87CEFA;
+}
+.inp3{
+  width:140px;
+  height:44px;
+  border:2px solid ;
+  border: 0;
+  text-align: center;
+  font-size:17px;
+  color:black;
+  background-color: white;
+}
+/* 头部最下 */
+.foot{
+  height:50px;
+  margin-top: 0px;
+  background-color: #6495ED;
+}
+.fot{
+  width:1200px;
+  margin:0 auto;
+}
+.fot a{
+  margin-left:35px;
+  margin-right:35px;
+  width: 90px;
+  float:left;
+  text-align: center;
+  line-height:50px;
+  font-size:19px;
+  color:white;
+}
+.fot a:hover{
+  margin-left:10px;
+  margin-right:10px;
+  padding-right: 25px;
+  padding-left: 25px;
+  width: 90px;
+  background-color: #4169E1;
+}
+.FF {
+    z-index: 1001;
+    width: 45px;
+    position: fixed;
+    background: #fff;
+    border-bottom: 1px solid #e0e0e0;
+    bottom: 40%;
+    right: 0;
+}
+	.FF .title {
+    display: block;
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    background-color: #6fb6fd;
+    border-left: 1px solid #64aaf1;
+    border-right: 1px solid #64aaf1;
+    border-top: 1px solid #64aaf1;
+}
+	.FF .side-border {
+    border-left: 1px solid #e0e0e0;
+    border-right: 1px solid #e0e0e0;
+}
+	.FF .triangle {
+    display: block;
+    width: 0;
+    height: 0;
+    margin: 0 auto;
+    border-width: 4px;
+    border-style: solid;
+    border-color: #6fb6fd transparent transparent;
+}
+	.FF a {
+    display: block;
+    height: 25px;
+    width: 25px;
+    padding: 10px 10px 0;
+    outline: 0;
+    font-size: 24px;
+    color: #999;
+}
+    .FF img{
+        height: 20px;
+        width: 20px;
+    }
+.slider{
+	width: 8400px;
+	position: absolute;
+	left: -1200px;
+}
+.slide{
+	width: 1200px;
+	overflow: hidden;
+	float: left;
+}
+.box>span{
+	display: block;
+	width: 30px;
+	height: 50px;
+	text-align: center;
+	cursor: pointer;
+	color:     ;
+	top: 175px;
+	line-height: 50px;
+	background: rgb(255,0,0);
+	font-size: 30px;
+	position: absolute;
+	opacity: 0;
+}
+#left{
+	
+	left: 30px;
+	
+}
+#right{
+	
+	right: 30px;
+	
+}
+.nav{
+	position: absolute;
+	left: 500px;
+	bottom: 20px;
+}
+.nav>li{
+	float: left;
+	width: 20px;
+	height: 20px;
+	background: #ccc;
+	cursor: pointer;
+	margin: 0 10px;
+	border-radius: 50%;
+}
+
+.nav .active{
+	background: red;
+	color: white;
+}
+.left{
+	width: 500px;
+	height: 550px;
+	background: white;
+	float: left;
+}
+
+
+.right{
+	width: 1000px;
+	height: 550px;
+	background:white;
+	float: right;
+}
+#wrap {
+    width: 800px;
+    margin: 20px auto;
+   
+}
+
+#mark {
+    line-height: 1.5em;
+   
+}
+
+#mark h1 {
+    height: 29px;
+    background: #64aaf1;
+    font-family: "黑体";
+    font-size: 12px;
+    color: white;
+    line-height: 29px;
+    padding-left: 20px;
+    letter-spacing: 2px;
+    /* 字之间的距离 */
+}
+
+#pic {
+    margin: 10px 0px;
+}
+
+#txt {
+    width: 100%;
+    height: 170px;
+    margin: 0px auto;
+}
+
+.btn {
+    width: 75px;
+    height: 22px;
+    background: url(../images/sanjiao.png) no-repeat right center;
+    float: right;
+    margin: 10px;
+}
+.content{
+	width: 1500px;
+	height: 100px;
+	background: #ccc;
+	position: relative;
+	top: 40px;
+	left: 150px;
+}
+.content{
+	margin-left:200px;
+	width: 900px;
+	background: #f5f5f5;
+}
+.content dl.fresh {
+    padding: 0 35px 0 5px;
+}
+.content dl {
+    float: left;
+    width: 230px;
+}
+/* dl {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+} */
+.content dl dt em {
+    margin-right: 10px;
+    color: #aaa;
+}
+.cmn-icons {
+    font-family: baikeFont_css;
+    font-weight: 400;
+    font-style: normal;
+}
+.cmn-icon {
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    outline: 0;
+}
+.content dl dd div {
+    float: left;
+    width: 110px;
+    margin-bottom: 5px;
+    position: relative;
+}
+.content dl dd div a {
+    color: #666;
+}
+div {
+    display: block;
+}
+fresh:before {
+    content: '\e605';
+}
+.content dl.question {
+    padding: 0 35px;
+}
+.content dl dt {
+    font-size: 20px;
+}
+dt {
+    display: block;
+}
+.content dl.suggestion {
+    padding: 0 5px 20px 35px;
+}
+.copyright {
+	text-align: center;
+	height: 30px;
+   padding-top: 50px;
+   margin-bottom: 15px;
+   margin-left: 102px;
+   background: #f5f5f5;
+}
+.record{
+	text-align: center;
+	height: 30px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   margin-left: 102px;
+   background: #f5f5f5;
+}
+
